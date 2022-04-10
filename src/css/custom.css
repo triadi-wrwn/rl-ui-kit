@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  /* CUSTOM VAR */
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1rem;
+  --ifm-h5-font-size: 0.875rem;
+  --ifm-h6-font-size: 0.85rem;
+  --ifm-bg-opacity: 1;
+  --ifm-bg-primary: 13, 110, 253;
+  --ifm-bg-secondary: 108, 117, 125;
+  --ifm-bg-success: 38, 191, 120;
+  --ifm-bg-danger: 247, 92, 106;
+  --ifm-bg-warning: 255, 211, 110;
+  --ifm-bg-info: 138, 225, 242;
+  --ifm-bg-light: 248, 249, 250;
+  --ifm-bg-dark: 33, 37, 41;
+  --ifm-bg-white: 255, 255, 255;
+  --ifm-bg-black: 0, 0, 0;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ifm-heading-color);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+h1 {
+  font-size: var(--ifm-h1-font-size);
+}
+
+h2 {
+  font-size: var(--ifm-h2-font-size);
+}
+
+h3 {
+  font-size: var(--ifm-h3-font-size);
+}
+
+h4 {
+  font-size: var(--ifm-h4-font-size);
+}
+
+h5 {
+  font-size: var(--ifm-h5-font-size);
+}
+
+h6 {
+  font-size: var(--ifm-h6-font-size);
+}
+
+a {
+  color: rgba(var(--ifm-bg-primary), var(--ifm-bg-opacity));
+}
+a:hover {
+  color: rgba(var(--ifm-bg-primary), 0.75);
+}
+
+/* CUSTOM STYLE */
+
+@layer utilities {
+  .bg-primary {
+    background-color: rgba(var(--ifm-bg-primary), var(--ifm-bg-opacity));
+  }
+  .bg-secondary {
+    background-color: rgba(var(--ifm-bg-secondary), var(--ifm-bg-opacity));
+  }
+  .bg-success {
+    background-color: rgba(var(--ifm-bg-success), var(--ifm-bg-opacity));
+  }
+  .bg-danger {
+    background-color: rgba(var(--ifm-bg-danger), var(--ifm-bg-opacity));
+  }
+  .bg-warning {
+    background-color: rgba(var(--ifm-bg-warning), var(--ifm-bg-opacity));
+  }
+  .bg-info {
+    background-color: rgba(var(--ifm-bg-info), var(--ifm-bg-opacity));
+  }
+  .bg-light {
+    background-color: rgba(var(--ifm-bg-light), var(--ifm-bg-opacity));
+  }
+  .bg-dark {
+    background-color: rgba(var(--ifm-bg-dark), var(--ifm-bg-opacity));
+  }
+  .bg-black {
+    background-color: rgba(var(--ifm-bg-black), var(--ifm-bg-opacity));
+  }
+  .bg-white {
+    background-color: rgba(var(--ifm-bg-white), var(--ifm-bg-opacity));
+  }
+}
