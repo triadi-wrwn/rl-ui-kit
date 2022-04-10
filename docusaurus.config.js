@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'RL UI KIT',
   url: 'https://triadi-wrwn.github.io',
-  baseUrl: '/rl-ui-kit/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'triadi-wrwn', // Usually your GitHub org/user name.
+  projectName: 'rl-ui-kit', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   presets: [
     [
       'classic',
