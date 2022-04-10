@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrl_ui_kit=self.webpackChunkrl_ui_kit||[]).push([[125],{5472:function(t){t.exports=JSON.parse('{"permalink":"/rl-ui-kit/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
