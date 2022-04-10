@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrl_ui_kit=self.webpackChunkrl_ui_kit||[]).push([[181],{9056:function(l){l.exports=JSON.parse('{"allTagsPath":"/rl-ui-kit/blog/tags","name":"hello","count":2,"permalink":"/rl-ui-kit/blog/tags/hello"}')}}]);
