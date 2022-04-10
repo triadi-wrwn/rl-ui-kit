@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'RL UI KIT',
   url: 'https://triadi-wrwn.github.io',
-  baseUrl: '/',
+  baseUrl: '/rl-ui-kit/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
