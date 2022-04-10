@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrl_ui_kit=self.webpackChunkrl_ui_kit||[]).push([[498],{9841:function(t){t.exports=JSON.parse('{"permalink":"/rl-ui-kit/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
